@@ -1,0 +1,348 @@
+.wrapper {
+    display: grid;
+    text-align: center;
+    grid-template-areas: 
+    "header"
+    "hobbies"
+    "works"
+    "comments"
+    "picture"
+    "background-border"
+    "name"
+    "number"
+    "country"
+    "gender"
+    "birthday"
+    "education-background"
+    "quote"
+    "save"
+    "cancel";
+}
+
+.fill-forms {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.border {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.fill-forms p {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fill-forms input[type="text"],
+.fill-forms input[type="file"],
+.fill-forms input[type="date"],
+.fill-forms select,
+.fill-forms textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.gender-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.gender-container input[type="radio"] {
+    margin-right: 15px;
+}
+
+.educational-background-container input {
+    margin-bottom: 10px;
+}
+
+.fill-forms button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#reset_button, #cancel_button {
+    background-color: #f44336;
+    color: white;
+}
+
+#submit_button, #save_button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.save-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.my-header {
+    grid-area: header;
+    color: white;
+    background-image: url("cat1.jpg");
+}
+
+.interest-hobbies {
+    border: solid 1px;
+    grid-area: hobbies;
+}
+
+.my-works {
+    grid-area: works;
+    border: solid 1px;
+}
+
+.testimonials {
+    border: solid 1px;
+    grid-area: comments;
+}
+
+.gallery-of-picture {
+    grid-area: picture;
+    background-color: blue;
+}
+
+#test1, #test2, #test3, #test4,
+#test5, #test6 {
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-ul {
+    text-align: center;
+
+}
+
+.unlisted {
+    display: inline-block;
+    text-align: left;
+}
+
+.container-list {
+    text-align: center;
+}
+
+.listed {
+    display: inline-block;
+    text-align: left;
+}
+
+.form-validation-container {
+    text-align: center;
+    border: solid 0px;
+    display: grid;
+    padding: 30px;
+    width: 100%;
+    grid-template-areas: 
+    "itm1 itm1"
+    "itm2 itm2"
+    "itm3 itm3";
+}
+
+#name_id {
+    margin: auto;
+    grid-area: itm1;
+    border-radius: 10px;
+}
+
+#comment_area {
+    margin: auto;
+    grid-area:  itm2;
+}
+
+#my_button {
+    margin: auto;
+    grid-area: itm3;
+}
+
+#my_text_js {
+    border-radius: 5px;
+    border: solid 0px;
+    background-color: rgb(60, 60, 130);
+    width: 100%;
+    height: 30px;
+    color: white;
+}
+
+#my_textarea_js {
+    border-radius: 10px;
+    width: 100%;
+    background-color:  rgb(126, 126, 203);
+    color:  rgb(9, 9, 34);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#submit_button_js {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid 0px;
+    padding: 5px 20px;
+    background-color: rgb(24, 24, 84);
+    color: white;
+    transition: background-color 0.25s;
+}
+
+#submit_button_js:hover {
+    background-color: rgb(111, 111, 202);;
+}
+
+.my-goals-container {
+    border: solid 1px;
+    text-align: center;
+
+}
+
+.my-goals {
+    display: inline-block;
+    text-align: left;
+}
+
+.comment-goals{
+    display: inline-block;
+    text-align: left;
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: large;
+    }
+
+    .interest-hobbies, .my-works {
+        font-weight: 700;
+        font-size: 5vw;
+    }
+
+    .testimonials p {
+        font-weight: 700;
+        font-size: 5vw;
+        font-weight: 700;
+        padding: 0 10px;
+    }
+    
+    #test1, #test2, #test3, #test4, #test5, #test6 {
+        width: 150px;
+        height: 150px;
+        margin: 5px auto;
+        display: block;
+    }
+
+    .fill-forms {
+        width: 95%;
+    }
+    
+    .border {
+        padding: 10px;
+    }
+    
+    .fill-forms button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    
+    .educational-background-container input {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (min-width: 322px) and (max-width: 375px) {
+    h1 {
+        font-size: large;
+    }
+
+    .interest-hobbies, .my-works {
+        font-weight: 700;
+        font-size: 5vw;
+    }
+
+    .testimonials p {
+        font-weight: 500;
+        font-size: 5vw;
+        padding: 0 10px;
+    }
+    
+    #test1, #test2, #test3, #test4, #test5, #test6 {
+        width: 200px;
+        height: 200px;
+        margin: 5px auto;
+        display: block;
+    }
+
+    .educational-background-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-goals-container {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .form-validation-container {
+        padding: 15px;
+        display: grid;
+        grid-template-areas: 
+            "itm1"
+            "itm2"
+            "itm3";
+        gap: 10px;
+    }
+
+    #my_textarea_js {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #my_text_js {
+        width: 100%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    h1 {
+        font-size: large;
+    }
+
+    .interest-hobbies, .my-works {
+        font-weight: 300;
+        font-size: 5vw;
+    }
+
+    .testimonials p {
+        font-weight: 300;
+        font-size: 5vw;
+        padding: 0 10px;
+    }
+    
+    #test1, #test2, #test3, #test4, #test5, #test6 {
+        width: 200px;
+        height: 200px;
+        margin: 5px auto;
+        display: block;
+    }
+
+    .fill-forms textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+}

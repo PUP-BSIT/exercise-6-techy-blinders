@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="test_2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?fami
+        ly=ABeeZee:ital@0;1&family=Madimi+One&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.co
+        m/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1> Sign up</h1>
+        </div>
+
+        <h2>Contact Information</h2>
+
+    <div class="fill-forms">
+        <div class="border">
+
+        <div class="name-container">
+            <form id="fullname">
+                <p>Full name</p>
+                <label for="name"></label>
+                <input id ="name_container"
+                type="text" placeholder="Full name" id="name" name="name">
+            <div class="picture-container">
+                <p>Picture</p>
+                <form id="picture_container">
+                    <label id="file_upload" for="picture"></label>
+                    <input type="file" id="picture" name="picture">
+                </form>
+            </div>
+            </form> 
+        </div>
+
+        <div class="number-container">
+            <form>
+                <p>Number</p>
+                <label for="number"></label>
+                <input id ="input_number" type="text"
+                        placeholder="Contact Number" 
+                        id="number" name="number">
+            </form>
+        </div>
+
+        <div class="country-container">
+            <form id="country_container_form">
+                <p>Country</p>
+                <select>
+                    <option value="">
+                        <option value="phil">Philippines</option>
+                        <option value="usa">United State of America</option>
+                        <option value="korea">Korea</option>
+                    </option>
+                </select>
+            
+            <p>Gender</p>
+            <div class="gender-container">
+                <label for="male">Male</label>
+                <input type="radio" name="male" id="male">
+
+                <label for="male">Female</label>
+                <input type="radio" name="male" id="male">
+            </div>
+            </form>
+        </div>
+
+        <div class="date-container">
+            <form>
+                <p>Date of Birth</p>
+                <label for="birthday"></label>
+                <input id ="input_date" type="date" 
+                    id="birthday" name="birthday">
+            </form>
+        </div>
+
+        <div class="educational-background-container">
+            <form id="school_background">
+                <p>Educational Background</p>
+                <label id="student_input"
+                    for="degree" for="college" for="year"></label>
+                <input id = "input_degree" 
+                    type="text" id="degree" placeholder="Degree" name="degree">
+                <input id = "input_college"
+                    type="text" id="college" placeholder="University" 
+                    name="college">
+                <input id = "input_year"
+                    type="date" id="year" placeholder="Year" name="year">
+                <button id ="reset_button" type="reset">Cancel</button>
+                <button id = "submit_button" type="submit">Save</button>
+            </form>
+        </div>
+
+        <div class="quote-container">
+            <form>
+                <p>Question</p>
+                <label for="quote"></label>
+                <textarea id="quote" name="quote" 
+                    rows="5" cols="40" placeholder="Vision and Mission">       
+                </textarea>
+            </form>
+        </div>
+
+        <div class="save-container">
+            <form>
+                <button id="cancel_button" type="menu">Cancel</button>
+                <button id ="save_button" type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+
+    </body>
+</html>
