@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>piadozo edriane Page</title>
+        <link rel="stylesheet" href="exercise.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div class="wrapper"> 
+
+        <div class="my-header">
+            <h1>piadozo edriane</h1>
+        </div>
+
+        <div class="interest-hobbies">
+            <h2>My interest and hobbies</h2>
+            <div class="container-ul">
+                <div class="unlisted">
+                    <ul>
+                        <li>Online games</li>
+                        <li>Soccer</li>
+                        <li>Gym</li>
+                        <li>Coding</li>
+                        <li>Watching</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="my-works">
+            <h2>My works</h2>
+            <div class="container-list">
+                <div class="listed">
+                    <ol>
+                        <li><a href="practice.html">
+                            Test 1</a>
+                        </li>
+                        <li><a href="test_2.html">
+                            Test 2</a>
+                        </li>
+                        <li><a href="test_3.html">
+                            Test 3</a>
+                        </li>
+                        <li><a href="test_4.html">Test 4</a></li>
+                        <li><a href="test_5.html">Test 5</a></li>
+                    </ol>
+                </div>                       
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <h2>Testimonials</h2>
+                <p>The creativity of your website looks amazing. 
+                    I like the pictures you provide in your 
+                    gallery - Veslino</p>
+                <p>Great design and easy to navigate. - Mosquito</p>
+                <p>A cool and engaging webpage showcasing a passion for online
+                    games, soccer, the gym, coding, and watching content. 
+                    - Consultado
+                </p>
+        </div>
+
+        <div class="gallery-of-picture">
+            <h2>Gallery</h2>
+            <img id="test1" src="cat1.jpg">
+            <img id="test2" src="cat2.jpg">
+            <img id="test3" src="cat3.jpg">
+            <img id="test4" src="CSS CHEAT SHEET.jpg">
+            <img id="test5" src="HTML CHEATSHEET.jpg">
+            <img id="test6" src="nagi.gif">
+        </div>
+        </div>
+   
+        <div class="fill-forms">
+        <div class="border">
+
+        <div class="name-container">
+            <form id="fullname">
+                <p>Full name</p>
+                <label for="name"></label>
+                <input id ="name_container"type="text" 
+                        placeholder="Fullname" id="name" name="name">
+            </form> 
+        </div>
+
+        <div class="picture-container">
+            <p>Picture</p>
+            <form id="picture_container">
+                <label id="file_upload" for="picture"></label>
+                <input type="file" id="picture" name="picture">
+            </form>
+        </div>
+
+        <div class="number-container">
+            <form>
+                <p>Number</p>
+                <label for="number"></label>
+                <input id ="input_number" type="text"
+                        placeholder="Contact Number" 
+                        id="number" name="number">
+            </form>
+        </div>
+
+        <div class="country-container">
+            <form id="country_container_form">
+                <p>Country</p>
+                <select>
+                    <option value="">
+                        <option value="philippines">Philippines</option>
+                        <option value="usa">United State of America</option>
+                        <option value="korea">Korea</option>
+                    </option>
+                </select>
+            </form>
+        </div>
+
+        <p>Gender</p>
+        <div class="gender-container">
+            <label for="male">Male</label>
+            <input type="radio" name="male" id="male">
+
+            <label for="male">Female</label>
+            <input type="radio" name="male" id="male">
+        </div>
+
+        <div class="date-container">
+            <form>
+                <p>Date of Birth</p>
+                <label for="birthday"></label>
+                <input id ="input_date" type="date" 
+                        id="birthday" name="birthday">
+            </form>
+        </div>
+
+        <div class="educational-background-container">
+            <form id="school_background">
+                <p>Educational Background</p>
+                <label id="student_input"
+                        for="degree" 
+                        for="college" 
+                        for="year">
+                </label>
+                <input id = "input_degree" 
+                    type="text" id="degree" placeholder="Degree" name="degree">
+                <input id = "input_college"
+                        type="text" id="college" placeholder="University" 
+                        name="college">
+                <input id = "input_year"
+                        type="date" id="year" placeholder="Year" name="year">
+                <button id ="reset_button" type="reset">Cancel</button>
+                <button id = "submit_button" type="submit">Save</button>
+            </form>
+        </div>
+
+        <div class="quote-container">
+            <form>
+                <p>Question</p>
+                <label for="quote"></label>
+                <textarea id="quote" name="quote" 
+                            rows="5" cols="40" placeholder="Vision and Mission">       
+                </textarea>
+            </form>
+        </div>
+
+        <div class="save-container">
+            <form>
+                <button id="cancel_button" type="menu">Cancel</button>
+                <button id ="save_button" type="submit">Save</button>
+            </form>
+        </div>
+
+        </div>
+        </div>
+
+        <div class="my-goals-container">
+            <h1>My Goals</h1>
+            <ul class="my-goals">
+                <li>Graduate</li>
+                <li>Have a job in IT industry</li>
+                <li>Pass all my subject this sem</li>
+                <li>Create a functional WebPage project</li>
+            </ul>
+
+            <div class="goal-comments-container">
+                <h1>Goal Comments</h1>
+                <ul class="comment-goals">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="form-validation-container">
+
+            <div id="name_id">
+                <form>
+                    <p id="my_paragraph">Name</p>
+                    <input type="text" id="my_text_js">
+                </form>
+            </div>
+
+            <div id="comment_area">
+                <form>
+                    <p id="my_paragraph">Comment</p>
+                    <textarea id="my_textarea_js" rows="5" cols="30"></textarea> 
+                </form>
+            </div>
+            
+            <div id="my_button">
+                <form>
+                    <button id="submit_button_js" >Comment</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="exercise.js"></script>
+    </body>
+</html>
