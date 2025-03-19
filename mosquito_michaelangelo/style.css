@@ -1,0 +1,473 @@
+:root {
+    --dark-blue-gray: #2C3E50;
+    --deep-slate-blue: #34495E;
+    --muted-gray-blue: #7F8C8D;
+    --light-silver: #BDC3C7;
+    --very-light-gray: #ECF0F1;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--very-light-gray);
+}
+
+a {
+    text-decoration: none;
+    color: var(--deep-slate-blue);
+}
+
+a:hover {
+    color: var(--very-light-gray);
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    color: var(--deep-slate-blue)
+}
+
+img {
+    width: 170px;
+    height: 170px;
+}
+
+.title-div {
+    background-image: url(./images/background.jpg);
+    margin: -10px;
+    height: 65px;
+    margin-bottom: 10px;
+    padding: 30px;
+    text-align: center;
+    color: var(--very-light-gray);
+}
+
+.interest-div, .my-work-div, .testimonial-div, .gallery-div {
+    border: 1px solid;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    background: var(--light-silver);
+    font-size: x-large;
+}
+
+.interest-div-2, .work-div-2 {
+    color: var(--deep-slate-blue);
+    font-weight: 700;
+    margin-left: 42%;
+}
+
+.testimonial-div-2 {
+    font-weight:600;
+    margin-left: 3%;
+    color: var(--deep-slate-blue);
+}
+
+.gallery-div-2 {
+    margin-left: 32%;
+    margin-right: 30%;
+    padding-bottom: 1%;
+}
+
+.contact-div {
+    font-size: xx-large;
+    background: var(--light-silver);
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-radius: 10px;
+}
+
+.label-name, .label-email, .label-phone, .label-message {
+    display: block;
+    font-size: xx-large;
+    font-weight: 600;
+    color: var(--deep-slate-blue);
+    margin-top: 3%;
+}
+
+.input-name, .input-email, .input-phone, .input-message {
+    padding-bottom: 1%;
+    border-radius: 10px;
+    font-size: xx-large;
+    width: 100%;
+}
+
+.submit-button {
+    font-weight: 500;
+    color: var(--very-light-gray);
+    background:var(--deep-slate-blue);
+    margin-top: 10px;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.goal-comment {
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: var(--light-silver);
+}
+
+.goal-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-team {
+    font-weight:600;
+    margin-left: 38%;
+    font-size: x-large;
+    color: var(--deep-slate-blue);
+}
+
+.goal-1, .goal-2, .goal-3, .goal-4 {
+    width: 18%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 3px solid var(--deep-slate-blue);
+    color: var(--deep-slate-blue);
+}
+
+.comment-div {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#comment_name_input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.comment-name, .comment-label {
+    color: var(--deep-slate-blue);
+    font-size: xx-large;
+    font-weight: 700;
+} 
+
+.comment-label {
+    margin-top: 2%;
+}
+
+#message_team {
+    font-size: x-large;
+}
+
+.comment-button:disabled {
+    cursor: not-allowed;
+    background: none;
+    color: black;
+}
+
+.comment-button {
+    padding: 1%;
+    width: 10%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--deep-slate-blue);
+    color: white;
+}
+
+textarea {
+    width: 100%;
+}
+
+@media (max-width: 320px) {
+    .title-div {
+        padding-bottom: -10px;
+        padding-top: 5%;
+        padding-bottom: 0.1%;
+        height: 60%;
+    }
+
+    .title-div h1 {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial-div {
+        font-size: x-large;
+    }
+
+    .interest-div-2, .work-div-2 {
+        font-weight: 600;
+        font-size: x-large;
+        margin-left: 29%;
+    }
+
+    .interest-div-2, .work-div-2 {
+        font-weight: 700;
+        margin-left: 20%;
+    }
+
+    .gallery-div-2 {
+        margin-left: 17%;
+        margin-right: 5%;
+    }
+    
+    .contact-div {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .label-name, .label-email, .label-phone, .label-message {
+        font-size: x-large;
+    }
+
+    .input-name, .input-email, .input-phone, .input-message {
+       font-size: x-large;
+    }   
+
+    .submit-button {
+        font-weight: 500;
+        padding: 5%;
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .message-team {
+        margin-left: 20%;
+        font-size: medium;
+    }
+
+    .goal-div {
+        flex-direction: column;
+    }
+
+    .goal-1, .goal-2, .goal-3, .goal-4 {
+        width: 75%;
+        margin-left: 10%;
+        margin-top: 10px;
+        border: 3px solid var(--deep-slate-blue);
+        color: var(--deep-slate-blue);
+    }
+
+    .comment-name, .comment-label {
+        font-size: x-large;
+        font-weight: 600;
+    } 
+    
+    #comment_name_input {
+        font-size: medium;
+    }
+
+    #message_team {
+        font-size: medium;
+        width: 100%;
+    }
+
+    .comment-button {
+        width: 100%;
+        border-radius: 10px;
+        font-size: larger;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .title-div {
+        padding-bottom: -20px;
+        padding-top: 5%;
+        padding-bottom: -5%;
+    }
+
+    .title-div h1 {
+        font-size: x-large;
+    }
+
+    img {
+        width: 280px;
+        height: 250px;
+    }
+
+    h2 {
+        font-size: xx-large;
+    } 
+
+    .testimonial-div {
+        font-size: x-large;
+    }
+
+    .interest-div-2, .work-div-2 {
+        font-weight: 600;
+        font-size: x-large;
+        margin-left: 29%;
+    }
+
+    .gallery-div-2 {
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+
+    .contact-div {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .label-name, .label-email, .label-phone, .label-message {
+        font-size: x-large;
+    }
+
+    .input-name, .input-email, .input-phone, .input-message {
+       font-size: x-large;
+    }
+
+    .submit-button {
+        font-weight: 700;
+        font-size: x-large;
+        padding: 2%;
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .goal-div {
+        flex-direction: column;
+    }
+
+    .message-team {
+        margin-left: 26%;
+        font-size: medium;
+    }
+
+    .goal-1, .goal-2, .goal-3, .goal-4 {
+        width: 75%;
+        margin-left: 10%;
+        margin-top: 10px;
+        border: 3px solid var(--deep-slate-blue);
+        color: var(--deep-slate-blue);
+    }
+
+    .comment-name, .comment-label {
+        font-size: x-large;
+        font-weight: 600;
+    } 
+    
+    #comment_name_input {
+        font-size: medium;
+    }
+
+    #message_team {
+        font-size: medium;
+        width: 100%;
+    }
+
+    .comment-button {
+        width: 100%;
+        border-radius: 10px;
+        font-size: larger;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .title-div {
+        padding-top: 4%;
+    }
+
+    .title-div h1 {
+        font-size: x-large;
+    }
+
+    img {
+        width: 300px;
+        height: 250px;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    .interest-div, .my-work-div, .testimonial-div, .gallery-div {
+        font-size: x-large;
+    }
+
+    .interest-div-2, .work-div-2 {
+        font-size: larger;
+        margin-left: 28%;
+    }
+
+    .gallery-div-2 {
+        margin-left: 13%;
+        margin-right: 15%;
+    }
+
+    .contact-div {
+        margin-left: 1%;
+        margin-right: 1%;
+        font-weight: 900;
+    }
+
+    .label-name, .label-email, .label-phone, .label-message {
+        font-size: x-large;
+    }
+
+    .input-name, .input-email, .input-phone, .input-message {
+       font-size: x-large;
+    }
+
+    .submit-button {
+        font-weight: 700;
+        font-size: large;
+        padding: 2%;
+    }
+
+    .goal-div {
+        flex-direction: column;
+    }
+
+    .message-team {
+        margin-left: 30%;
+        font-size: medium;
+    }
+
+    .goal-comment {
+        font-size: medium;
+    }
+
+    .goal-1, .goal-2, .goal-3, .goal-4 {
+        width: 75%;
+        margin-left: 10%;
+        margin-top: 10px;
+        border: 3px solid var(--deep-slate-blue);
+        color: var(--deep-slate-blue);
+    }
+
+    .comment-name, .comment-label {
+        font-size: x-large;
+        font-weight: 700;
+    } 
+
+    #comment_name_input {
+        font-size: medium;
+    }
+
+    #message_team {
+        font-size: medium;
+        width: 100%;
+    }
+
+    .comment-button {
+        width: 100%;
+        border-radius: 10px;
+        font-size: larger;
+    }
+}
