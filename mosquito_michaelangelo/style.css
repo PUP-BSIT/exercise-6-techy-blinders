@@ -125,7 +125,6 @@ img {
 
 .message-team {
     font-weight:600;
-    margin-left: 38%;
     font-size: x-large;
     color: var(--deep-slate-blue);
 }
@@ -247,7 +246,6 @@ textarea {
     }
 
     .message-team {
-        margin-left: 20%;
         font-size: medium;
     }
 
@@ -345,7 +343,6 @@ textarea {
     }
 
     .message-team {
-        margin-left: 26%;
         font-size: medium;
     }
 
@@ -435,7 +432,6 @@ textarea {
     }
 
     .message-team {
-        margin-left: 30%;
         font-size: medium;
     }
 
